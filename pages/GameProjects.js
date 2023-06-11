@@ -8,7 +8,9 @@ export default function GameProjects() {
         <title >My Portfolio - Game Development</title>
       </Head>
       <Nav />
-      <h1 className="bg-red-500 text-white text-center py-8 text-4xl font-bold">Game Development Page</h1>
+      <h1 className="font-bangers text-2xl bg-red-500 text-center">
+        Game Development
+      </h1>
       {/* Add your game projects content here */}
     </div>
   );
