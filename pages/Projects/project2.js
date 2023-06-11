@@ -1,17 +1,39 @@
 import Head from "next/head";
 import Nav from "../../components/nav";
 
-export default function About() {
+export default function Project1() {
   return (
     <div>
       <Head>
-        <title>My Portfolio - About</title>
+        <title>Suni</title>
       </Head>
       <Nav />
       <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
-        Suni
+        Treep
       </h1>
-      {/* Add your about content here */}
+      {/* Project details */}
+      <div className="container mx-auto py-8">
+        <div className="max-w-md mx-auto bg-white rounded p-8 shadow-md">
+          <h2 className="text-2xl font-bold mb-4">Name</h2>
+          <p>Treep</p>
+          <h2 className="text-2xl font-bold mt-6 mb-4">Year</h2>
+          <p>2022</p>
+          <h2 className="text-2xl font-bold mt-6 mb-4">Type</h2>
+          <p>Web Development, Collaborative</p>
+          <h2 className="text-2xl font-bold mt-6 mb-4">Website</h2>
+          <p>
+            <a href="https://suniweather.wcs-student-projects.d-a-pfeiffer.info/">
+              Click Here
+            </a>
+          </p>
+          <h2 className="text-2xl font-bold mt-6 mb-4">GitHub Repo</h2>
+          <p>
+            <a href="https://github.com/WildCodeSchool/2022-09-JS-RemoteEN-Project-2-Team-2">
+              Click Here for the GitHub Repo
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

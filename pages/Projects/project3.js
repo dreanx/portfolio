@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Nav from "../../components/nav";
 
-export default function About() {
+export default function Project3() {
   return (
     <div>
       <Head>
