@@ -9,7 +9,7 @@ export default function About() {
       </Head>
       <Nav />
       <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
-        Projet 2
+        Suni
       </h1>
       {/* Add your about content here */}
     </div>

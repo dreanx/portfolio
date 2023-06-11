@@ -18,7 +18,7 @@ export default function WebProjects() {
           projectLink="/Projects/project1"
         />
         <WebProject
-          imageSrc="/Treep.png"
+          imageSrc="/Suni.png"
           projectLink="/Projects/project2"
         />
         <WebProject
