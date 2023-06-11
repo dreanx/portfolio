@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Nav from '../components/nav';
+import Head from "next/head";
+import Image from "next/image";
+import Nav from "../components/nav";
 
 export default function Home() {
   return (
@@ -10,8 +10,9 @@ export default function Home() {
         Welcome to my page!
       </h1>
       <p className="text-lg">
-          This is a mobile-first approach for the home page content. Adjustments for larger screens can be made using Tailwind CSS responsive classes.
-        </p>
+        This is a mobile-first approach for the home page content. Adjustments
+        for larger screens can be made using Tailwind CSS responsive classes.
+      </p>
     </div>
   );
 }

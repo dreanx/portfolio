@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import Nav from '../components/nav';
+import Head from "next/head";
+import Nav from "../components/nav";
 
 export default function WebProjects() {
   return (
