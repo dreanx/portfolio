@@ -13,7 +13,7 @@ export default function Project1() {
         Treep
       </h1>
       {/* Project details */}
-      <div className="container mx-auto py-8">
+      <div className="container mx-auto py-8 bg-gray-200">
         <div className="max-w-md mx-auto bg-white rounded p-8 shadow-md">
           <h2 className="text-2xl font-bold mb-4">Name</h2>
           <p>Treep</p>

@@ -12,7 +12,7 @@ export default function WebProjects() {
       <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
         Web Projects
       </h1>
-      <div className="flex flex-wrap justify-center py-10">
+      <div className="flex flex-wrap justify-center py-10 bg-gray-200">
         <WebProject
           imageSrc="/Treep.png"
           projectLink="/Projects/project1"

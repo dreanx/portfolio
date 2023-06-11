@@ -13,8 +13,8 @@ export default function Project1() {
         Suni
       </h1>
       {/* Project details */}
-      <div className="container mx-auto py-8">
-        <div className="max-w-md mx-auto bg-white rounded p-8 shadow-md">
+      <div className="container mx-auto py-8 bg-gray-200">
+        <div className="max-w-md mx-auto bg-white rounded p-8 shadow-md ">
           <h2 className="text-2xl font-bold mb-4">Name</h2>
           <p>Suni</p>
           <h2 className="text-2xl font-bold mt-6 mb-4">Year</h2>
