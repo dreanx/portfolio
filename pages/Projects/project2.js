@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from "../../components/nav";
+import Link from "next/link";
 
 export default function Project1() {
   return (
@@ -32,6 +33,12 @@ export default function Project1() {
               Click Here for the GitHub Repo
             </a>
           </p>
+          {/* Back button */}
+          <div className="text-center mt-8">
+            <Link href="/WebProjects">
+              <span className="text-blue-500">Back to Web Projects</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
