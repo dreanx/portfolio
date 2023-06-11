@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <nav className="bg-blue-900">
-      <div className="container mx-auto py-4 text-center">
+      <div className="container mx-auto py-4 text-center font-lato font-bold">
         <div className="flex items-center justify-around">
           {/* Logo only in large screens */}
           <div className="hidden lg:block">

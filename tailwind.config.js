@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'bangers': ['Bangers', 'cursive'],
+        'lato': ['Lato', 'sans-serif'],
       }
     },
   },
