@@ -4,7 +4,7 @@ const WebProject = ({ imageSrc, projectLink }) => {
   return (
     <Link href={projectLink}>
       <span>
-        <img src={imageSrc} alt="Web Project" />
+        <img className='w-80 p-5' src={imageSrc} alt="Web Project" />
       </span>
     </Link>
   );

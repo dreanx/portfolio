@@ -12,21 +12,21 @@ export default function WebProjects() {
       <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
         Web Projects
       </h1>
-      <div className="project-list flex justify-around py-10">
+      <div className="flex flex-wrap justify-center py-10">
         <WebProject
-          imageSrc="/hamburger.svg"
+          imageSrc="/Treep.png"
           projectLink="/Projects/project1"
         />
         <WebProject
-          imageSrc="/hamburger.svg"
+          imageSrc="/Treep.png"
           projectLink="/Projects/project2"
         />
         <WebProject
-          imageSrc="/hamburger.svg"
+          imageSrc="/Treep.png"
           projectLink="/Projects/project3"
         />
         <WebProject
-          imageSrc="/hamburger.svg"
+          imageSrc="/Treep.png"
           projectLink="/Projects/project4"
         />
         {/* Add more WebProject components for each project */}
