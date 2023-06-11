@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div className="font-bangersbg-purple-900">
       <Nav />
-      <h1 className="font-bangers text-2xl bg-red-500 text-center">
+      <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
         Welcome to my page!
       </h1>
-      <p className="text-lg">
+      <p className="text-lg py-10">
         This is a mobile-first approach for the home page content. Adjustments
         for larger screens can be made using Tailwind CSS responsive classes.
       </p>

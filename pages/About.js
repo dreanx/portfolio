@@ -8,7 +8,7 @@ export default function About() {
         <title>My Portfolio - About</title>
       </Head>
       <Nav />
-      <h1 className="font-bangers text-2xl bg-red-500 text-center">
+      <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
         About Me & Contact
       </h1>
       {/* Add your about content here */}

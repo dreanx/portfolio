@@ -32,7 +32,7 @@ export default function Nav() {
             </button>
           </div>
           <ul
-            className={`md:flex items-center space-x-4 md:space-x-16 ${
+            className={`md:flex items-center md:space-x-16 ${
               isMobileMenuOpen ? "block" : "hidden"
             }`}
           >

@@ -8,7 +8,7 @@ export default function WebProjects() {
         <title>My Portfolio - Web Projects</title>
       </Head>
       <Nav />
-      <h1 className="font-bangers text-2xl bg-red-500 text-center">
+      <h1 className="font-bangers text-4xl bg-red-500 text-center py-10">
         Web Projects
       </h1>
       {/* Add your web projects content here */}
